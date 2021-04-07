@@ -1,0 +1,114 @@
+<!DOCTYPE html> <!--ovo stoji za hmtl5-->
+<html> <!--ovo je root-->
+<head> <!--ovde ide sa zaglavlje-->
+    <title>Document</title> <!--naziv fajla u browser-u-->
+    <style>
+        ol {list-style-type: upper-roman;} /*css*/
+        ul {list-style-type: square;}
+    </style>
+</head>
+<body> <!--ovde se pise ceo html kod, takodje ovo je otvoren tag-->
+    <div id="recepti"></div>
+    <a href="#linkovi">Prebaci me na kraj</a>
+    <h1>Recepti</h1> <!--naslov, mogu da budu od h1 do h6-->
+    <h2>Plazma torta sa milka čokoladom</h2>
+    <p>Torta sa <b>plazma keksom,</b><!--za podebljanje teksta--> <i>milka čokoladom i lešnicima.</i> <!--sluzi sa iskosi tekst-->
+       Odmah se pojela bez obzira što spada u one torte kojih je dovoljno jedno parče.</p> <!--ovo je paragraf, ovde pisemo tekst-->
+    <blockquote> <!--za se posebno istakne i da bude uvuceno i zasebno kao neko citiranje-->
+        <p>Korice su lagane od belanaca (nisu sušene) i plazma keksa.</p>
+    </blockquote>
+
+    <ol> Kora: <!--sluzi za pravljenje numerisanih lista-->
+         <li>5 belanaca</li>
+        <li>5 kasika secera</li>
+        <li>5 kasika plazme</li>
+    </ol>
+    <ul> Dodatno: <!--koristi se za pravljenje nenumerickih listi-->
+        <li>1.5 kasika brasna</li>
+        <li>3 kasike mleka</li>
+    </ul>
+    <dl> <!--koristi se za definisanje pojmova-->
+        <dt>Jaja</dt>
+        <dd>Jaja imaju široku primenu u kulinarstvu, zbog svoje velike hranljive vrednosi kao i zbog 
+            velikog broja raznovrsnih jela koja se mogu pripemiti od njih.</dd>
+    </dl>
+    <dl>
+        <dt>Secer</dt>
+        <dd>Sećer (poreklom od sanskritske reči शर्करा, śarkarā - slatko, ... 
+            Stoni ili granulirani šećer koji se obično koristi kao hrana je saharoza, disaharid.</dd>
+    </dl>
+    <ul>Fil:
+        <li>15 zumanceta</li>
+        <li>3 kasike secera</li>
+        <li>cokolada:</li>
+            <ul> <!--ugnezdena lista (jedna u drugoj)-->
+                <li>100 gr crne mlecne cokolade</li>
+                <li>100 gr bele mlecne cokolade</li>
+            </ul>
+        <li>1 l mleka</li>
+    </ul>
+    <hr> <!--horizontalna linija i nema zavrsni tag-->
+    <br> <!--sluzi da razmak izmedju dva dela i nema zavrsni tag-->
+    <h2>Formule</h2>
+    <p>H <sub>2</sub>O</p> <!--sub se korist za indeksiranje broja a sup za kvadratiranje broja-->
+    <p>x <sup>2</sup>+y <sup>2</sup></p>
+    <br>
+    <hr>
+    <h2>Meni</h2>
+    <table border="3"> <!--koristi se za pravljenje tabela-->
+        <tr>
+            <th></th> <!--za zaglavlja tabela-->
+            <th>Dorucak</th>
+            <th>Rucak</th>
+            <th>Vecera</th>
+        </tr>
+        <tr>
+            <th>Dan 1</th>
+            <td rowspan="2">jaja</td> <!--za popunjavanje celija u tabeli, rowspan je za spajanje dva reda-->
+            <td>crvena corba</td>
+            <td>pljeskavica</td>
+        </tr>
+        <tr>
+            <th>Dan 2</th>
+            <td>supa</td>
+            <td rowspan="2">pica</td>
+        </tr>
+        <tr>
+            <th>Dan 3</th>
+            <td>pecenica</td>
+            <td>bela corba</td>
+        </tr>
+        <tr>
+            <th>Dan 4</th>
+            <td>sir</td>
+            <td colspan="2"> <!--za spajanje dve kolone-->
+                <table> <!--layout tabela, sto znaci tabela u tabeli-->
+                    <tr>
+                        <th>meso</th>
+                    </tr>
+                    <tr>
+                        <td bgcolor="red">pilece</td> <!--bgcolor bojanje celija-->
+                        <td bgcolor="blue">curece</td>
+                        <td>svinjsko</td>
+                    </tr>
+                </table>
+            </td>   
+        </tr>
+    </table>
+    <br><hr>
+    <ul>
+        <li><a href="http://youtube.com" target="_black">Muzika</a></li><!--sluzi za prebacivanje na drugu stranicu-->
+        <li><a href="http:google.rs" target="_black">Informacija</a></li>
+        <li><a href="proba.html" target="_black">Probni link</a></li>
+    </ul>
+    <img src="https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX14146214.jpg" alt="top">
+    <br>
+    <a href="mailto: slax01@live.de">Posaljite nam utiske na mail</a>
+    <br><hr>
+    <h2>Forme</h2>
+    
+    <br><hr>
+    <a href="#recepti">Prebaci me na pocetak</a>
+    <div id="linkovi"></div>
+</body> <!--ovo je zatvoren tag-->
+</html>
